@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#00000000"
+    tools:context=".user.UserDashboard">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="47dp"
+        android:layout_height="46dp"
+        android:background="#00000000"
+        android:onClick="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/leftarrow" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="99dp"
+        android:text="Enter Your Phone Number"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="104dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:text="          +91"
+        android:textColor="@android:color/black"
+
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="49dp"
+        android:layout_height="33dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28"
+        app:srcCompat="@drawable/flag" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="152dp"
+        android:layout_height="28dp"
+        android:text="Login via Email"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <ImageButton
+        android:id="@+id/movetoon"
+        android:layout_width="107dp"
+        android:layout_height="115dp"
+        android:background="@drawable/round_btn"
+        android:onClick="onbthfun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921"
+        app:srcCompat="@drawable/off_btn" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="221dp"
+        android:layout_height="43dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <ImageButton
+        android:id="@+id/onbtn"
+        android:layout_width="87dp"
+        android:layout_height="68dp"
+        android:background="@drawable/round_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="otp"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintVertical_bias="0.467"
+        app:srcCompat="@drawable/on_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "863020264977",
+    "firebase_url": "https://al-amanah-25666.firebaseio.com",
+    "project_id": "al-amanah-25666",
+    "storage_bucket": "al-amanah-25666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863020264977:android:9655a2d0ead6d8e03d4bb0",
+        "android_client_info": {
+          "package_name": "com.example.al_amanah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863020264977-ae693c07351gh7ofuedn0aao4vmjhfj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.al_amanah",
+            "certificate_hash": "adc246c3e126d4d8e0bfbd138b9f8cf9f1209560"
+          }
+        },
+        {
+          "client_id": "863020264977-kol98odcjv4h97dd1sl0iks9fgpm967j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtVDOPMn2sI1iiOtlvWRrcCbuew75DTGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863020264977-kol98odcjv4h97dd1sl0iks9fgpm967j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Al-Amanah</string>
+    <string name="login">LogIn</string>
+    <string name="signup">SignUp</string>
+    <string name="first_slide_title">SADAQA</string>
+    <string name="second_slide_title">DONATE</string>
+    <string name="third_slide_title">ZAKAT</string>
+    <string name="fourth_slide_title">ZAKAT</string>
+
+
+    <string name="first_slide_desc">Sadaqah or Saddka is an Islamic term that means "voluntary charity". This concept encompasses any act of giving out of compassion, love, friendship, religious duty or generosity.</string>
+    <string name="second_slide_desc">One good thing about donation, once you do it, you get addicted to it because it brings great joy and happiness to you.</string>
+    <string name="third_slide_desc">zakat is meant to be paid in order to purify the wealth. Therefore, those Muslims who have enough wealth have to give a little amount i.e. 2.5% of your wealth to the poor and needy.</string>
+    <string name="fourth_slide_desc">zakat is meant to be paid in order to purify the wealth. Therefore, those Muslims who have enough wealth have to give a little amount i.e. 2.5% of your wealth to the poor and needy.</string>
+
+    <string name="skip_btn"></string>
+
+
+</resources>
